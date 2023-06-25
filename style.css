@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Andale Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #E8CBC0; 
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0); 
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+    min-height: 100vh;
+    color: #9966CC;
+}
+
+ul {
+    font-size: 25px;
+}
+
+.main_mark_book,
+.main_mark_dvd,
+.main_books_types_mark_o,
+.main_books_types_mark_z,
+.main_dvd_types_mark,
+.main_dvd_types_mark_z,
+.main_dvd_types_mark_o {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2,
+h4 {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.main_books_types,
+.main_dvd_types {
+    text-align: center;
+    color: #7851A9;
+    transform: translateX(26px);
+}
+
+.main_books_genres,
+.main_dvd_genres {
+    font-size: 25px;
+    text-align: left;
+    color: #8673A1;
+    list-style-type: none;
+}
